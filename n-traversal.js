@@ -1,3 +1,9 @@
+// Question
+// You are given a matrix of size n x n. Find theNtraversal of the matrix.
+// (Traverse the matrix in N patter)
+// Refer the following figure for better understanding.
+
+
 let N = 4;
 
 let matrix = [

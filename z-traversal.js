@@ -1,3 +1,9 @@
+// Question
+// Given a square matrix of size N x N. Print the Z traversal of the matrix.
+// (Traverse the matrix in Z patter)
+// Refer the figure given below for better understanding.
+
+
 let N = 4;
 
 let matrix = [
