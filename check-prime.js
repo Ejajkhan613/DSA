@@ -12,12 +12,15 @@ function checkPrime(num) {
         return;
     }
 
-    for (let a = 2; a < num; a++) {
+    let sqrt = Math.floor(Math.sqrt(num));
+
+    for (let a = 2; a <= sqrt; a++) {
         if (num % a == 0) {
             console.log("No");
             return;
         }
     }
+
     console.log("Yes");
 }
 
